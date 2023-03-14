@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+body{
+	background-color:#333;
+}
+div.back a.backhome{
+	position:absolute;
+	right:0;
+	top:0;
+}
+div.tit{
+	width:auto;
+	height:105px;
+}
+div.tit div{
+	width:400px;
+	height:105px;
+	margin:0 auto;
+}
+div.view{
+	width:auto;
+	height:560px;
+	position:relative;
+/*	border:1px solid white;*/
+}
+div.view video{
+	width:auto;
+	height:450px;
+	position:absolute;
+	top:40px;
+	left:23%
+}
+div.view div{
+	font-size:18px;
+	color:white;
+	font-family:"楷体";
+	font-weight:bolder;
+	position:absolute;
+	left:20px;
+	bottom:20px;
+}
+div.other{
+	width:auto;
+	height:150px;
+}
+div.other div{
+	width:830px;
+	height:100px;
+	margin:0 auto;
+	position:relative;
+}
+div.other a.a1{
+	position:absolute;
+}
+div.other a.a2{
+	position:absolute;
+	left:330px;
+}
+div.other a.a3{
+	position:absolute;
+	right:10px;
+}
